@@ -7,9 +7,9 @@ desarrollar apps entretenidas, con un equipo de desarrollo muy organizado que si
 buenas prácticas del desarrollo de software.
 Este equipo ha sido asignado para desarrollar una App en Python que permite jugar una
 trivia interactiva. Esta App tendrá preguntas con 3 niveles de dificultad:
-● Básica
-● Intermedia
-● Avanzada.
+- Básica
+- Intermedia
+- Avanzada.
 El mismo jugador define el número de preguntas a responder correspondientes a cada nivel
 de dificultad, y gana al responder todas las preguntas correctamente.
 Las preguntas deben aparecer en un orden aleatorio, y además cada vez que alguien ejecute
