@@ -1,13 +1,13 @@
 preguntas_basicas = {
     'pregunta_1': {'enunciado':['¿Cuál es la capital de Romania?'],
-    'alternativas': [['A. Berlín', 0], 
-                     ['B. París', 0], 
-                     ['C. Bucarest', 1], 
+    'alternativas': [['A. Bucarest', 1],
+                     ['B. Berlín', 0], 
+                     ['C. París', 0], 
                      ['D. Roma', 0]]},
     'pregunta_2': {'enunciado':['¿Cuál es la capital de Canada?'],
     'alternativas': [['A. Montreal', 0], 
-                     ['B. Ottawa', 1], 
-                     ['C. Quebec', 0], 
+                     ['B. Quebec', 0], 
+                     ['C. Ottawa', 1],
                      ['D. Toronto', 0]]},
     
 'pregunta_3': {'enunciado':['¿Cuál es la capital de Ucrania?'],
@@ -31,10 +31,10 @@ preguntas_intermedias = {
             ['D. Corazón', 0]]},
     
 'pregunta_3': {'enunciado':['¿Quien fue el creador de Microsoft?'],
-    'alternativas': [['Steve Jobs', 0], 
-                     ['Michael Witman', 0], 
-                     ['Bill Gates', 1], 
-                     ['Joachim Peiper', 0]]}
+    'alternativas': [['A. Steve Jobs', 0], 
+                     ['B. Michael Witman', 0], 
+                     ['C. Joachim Peiper', 0],
+                     ['D. Bill Gates', 1]]}
 }
 
 preguntas_avanzadas = {
