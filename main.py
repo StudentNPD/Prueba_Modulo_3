@@ -1,5 +1,3 @@
-
-# No modificar
 from verify import verificar
 import preguntas as p
 from question import choose_q
@@ -22,14 +20,13 @@ op_sys = 'cls' if sys.platform == 'win32' else 'clear'
 
 os.system(op_sys) # limpiar pantalla
 
-print('Bienvenido a la Trivia')
-opcion = input('''Ingrese una opción para Jugar!
-        1. Jugar
-        0. Salir
-        
-    > ''')
+print('***Bienvenido a la Trivia***')
+
 # 1. validar opcion
-opcion = validate(opcion, input("Ingrese su opción: "))
+opcion = validate(['0', '1'], input('''Ingrese su opción: 
+1. Jugar
+0. Salir 
+> '''))
 
 # 2. Definir el comportamiento de Salir
 if opcion == '0':
@@ -43,7 +40,7 @@ if opcion == '0':
 while correcto and n_pregunta < 3*p_level:
     
     if n_pregunta == 0:
-        p_level = input('¿Cuántas preguntas por nivel? (Máximo 3): ')
+       
         # 3. Validar el número de preguntas por nivel
         p_level = int(validate([ '1','2', '3'], input("¿Cuántas preguntas por nivel deseas (1,2, o 3)? ")))
     
@@ -61,15 +58,15 @@ while correcto and n_pregunta < 3*p_level:
         
         respuesta = input('Escoja la alternativa correcta:\n> ').lower()
         # 7. Validar la respuesta entregada
-        respuesta = 
+        # respuesta = 
         # 8. Verificar si la respuesta es correcta o no
-        correcto = 
+        # correcto = 
         
         if correcto and n_pregunta < 3*p_level:
             print('Muy bien sigue así!')
             continuar = input('Desea continuar? [y/n]: ').lower()
             #9. Validar si es que se responde y o n
-            continuar = 
+            continuar = validate(['y', 'n'], input('Desea continuar? [y/n]: ').lower()) 
             os.system(op_sys)
         elif correcto and n_pregunta == 3*p_level:
             print(f'Felicitaciones, Has respondido {3*p_level} preguntas correctas. \n Has ganado la Trivia \n Gracias por Jugar, hasta luego!!!')
@@ -82,6 +79,5 @@ while correcto and n_pregunta < 3*p_level:
     else: 
         print('Nos vemos la proxima vez, sigue practicando')
         time.sleep(3)
-        exit()
-            
+        exit()       
             
