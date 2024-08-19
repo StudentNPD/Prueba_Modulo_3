@@ -31,4 +31,4 @@ especificaciones de una funcionalidad, y deberá ser testeada dentro del mismo a
 - [Iván Unquén](https://github.com/IvanUnquen)
 - [Camila Chavez](https://github.com/Camilachavez630)
 
-![pythn](./img/python2.png)
+
