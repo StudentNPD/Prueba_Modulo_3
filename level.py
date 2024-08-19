@@ -8,11 +8,11 @@
 def choose_level(n_pregunta, p_level):
 
     if n_pregunta/p_level > 2:
-        return "Nivel Avanzado"
+        return "avanzadas"
     elif n_pregunta/p_level > 1:
-        return "Nivel Intermedio"
+        return "intermedias"
     elif n_pregunta/p_level > 0:
-        return "Nivel Básico"
+        return "basicas"
             
     # Construir lógica para escoger el nivel
     ##################################################
