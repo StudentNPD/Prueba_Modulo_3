@@ -21,3 +21,14 @@ manager ha generado un backlog con tareas muy específicas, las cuales tendrán 
 desarrolladas paso a paso antes de ensamblar la app final.
 Todas las subtareas consistirán en la creación de un script en Python, la que contendrá las
 especificaciones de una funcionalidad, y deberá ser testeada dentro del mismo archivo
+
+------------------------------------------
+
+## Colaboradores
+- [Francisco Colomer](https://github.com/Cy5k0) 
+- [Francisco Monroy](https://github.com/fmonroy75)
+- [Natalia Peña](https://github.com/StudentNPD)
+- [Iván Unquén](https://github.com/IvanUnquen)
+- [Camila Chavez](https://github.com/Camilachavez630)
+
+![pythn](./img/python2.png)
