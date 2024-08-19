@@ -1,4 +1,4 @@
-# Prueba - Fundamentos de programación en Python
+# Prueba - Fundamentos de programación en Python.
 -------------------------------------
 ## Descripción
 
