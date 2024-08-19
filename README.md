@@ -1,5 +1,5 @@
 # Prueba - Fundamentos de programación en Python
--------------------------------------
+---------------------------------------
 ## Descripción
 
 ¡Llegó el gran momento! Te has unido a ADL Desarrolladores, una entidad dedicada a
