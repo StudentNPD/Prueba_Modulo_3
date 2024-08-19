@@ -30,9 +30,11 @@ opcion = validate(['0', '1'], input('''Ingrese su opción:
 
 # 2. Definir el comportamiento de Salir
 if opcion == '0':
-    print()
-    time.sleep(2)
-    os.system(op_sys)
+    print('Nos vemos pronto...')
+    exit()
+    # print()
+    # time.sleep(2)
+    # os.system(op_sys)
     # finalizar programa
     
 
@@ -56,7 +58,7 @@ while correcto and n_pregunta < 3*p_level:
         #6. Imprimir el enunciado y sus alternativas en pantalla
         print_pregunta(enunciado, alternativas)
         
-        respuesta = input('Escoja la alternativa correcta:\n> ').lower()
+        #respuesta = input('Escoja la alternativa correcta:\n> ').lower()
         # 7. Validar la respuesta entregada
         respuesta = validate(['a', 'b', 'c', 'd'], input('Escoja la alternativa correcta:\n> ').lower())
         
@@ -65,7 +67,7 @@ while correcto and n_pregunta < 3*p_level:
         
         if correcto and n_pregunta < 3*p_level:
             print('Muy bien sigue así!')
-            continuar = input('Desea continuar? [y/n]: ').lower()
+            # continuar = input('Desea continuar? [y/n]: ').lower()
             #9. Validar si es que se responde y o n
             continuar = validate(['y', 'n'], input('Desea continuar? [y/n]: ').lower()) 
             os.system(op_sys)
