@@ -1,11 +1,11 @@
 def validate(opciones, eleccion):
     """Valida la elección del usuario y la devuelve si es válida.
 
-    Args:
+     Parámetros::
         opciones (list): Una lista de las opciones válidas.
         eleccion (str): La elección del usuario.
 
-    Returns:
+    Retorna:
         str: La elección del usuario si es válida.
     """
     while eleccion not in opciones:
