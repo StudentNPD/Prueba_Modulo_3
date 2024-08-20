@@ -6,7 +6,16 @@
 # op_sys = 'cls' if sys.platform == 'win32' else 'clear'
 
 def choose_level(n_pregunta, p_level):
+    """
+    Determina el nivel de dificultad de una pregunta en función del número de preguntas y la cantidad de preguntas por nivel.
 
+    Parámetros:
+        n_pregunta (int): El número de la pregunta actual.
+        p_level (int): El nivel actual del usuario.
+
+    Retorna:
+        str: El nivel de dificultad de la pregunta, que puede ser "Nivel Básico", "Nivel Intermedio" o "Nivel Avanzado".
+    """
     if n_pregunta/p_level > 2:
         return "avanzadas"
     elif n_pregunta/p_level > 1:
