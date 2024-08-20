@@ -40,3 +40,4 @@ Para mantener el juego desafiante y evitar patrones predecibles, las preguntas a
 - [Iván Unquén](https://github.com/IvanUnquen)
 - [Camila Chavez](https://github.com/Camilachavez630)
 
+![pythn](./pythonX.jpeg)
