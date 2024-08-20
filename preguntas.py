@@ -16,6 +16,29 @@ preguntas_basicas = {
                      ['Lviv', 0], 
                      ['Korostishiv', 0]]}
 }
+"""
+Diccionario que contiene preguntas básicas para un juego de trivia.
+
+Estructura:
+    pregunta_n: {
+        'enunciado': [str],
+        'alternativas': [
+            [str, int],
+            ...
+        ]
+    }
+
+Claves:
+    - 'enunciado': Lista que contiene el texto de la pregunta.
+    - 'alternativas': Lista de listas donde cada sublista contiene una alternativa de respuesta y un indicador 
+      (1 para la respuesta correcta, 0 para las incorrectas).
+
+Ejemplo:
+    'pregunta_1': {
+        'enunciado': ['¿Cuál es la capital de Romania?'],
+        'alternativas': [['Bucarest', 1], ['Berlín', 0], ['París', 0], ['Roma', 0]]
+    }
+"""
 
 preguntas_intermedias = {
     'pregunta_1': {'enunciado':['¿Qué gas es necesario para la respiración humana?'],
@@ -36,6 +59,29 @@ preguntas_intermedias = {
                      ['Joachim Peiper', 0],
                      ['Bill Gates', 1]]}
 }
+"""
+Diccionario que contiene preguntas intermedias para un juego de trivia.
+
+Estructura:
+    pregunta_n: {
+        'enunciado': [str],
+        'alternativas': [
+            [str, int],
+            ...
+        ]
+    }
+
+Claves:
+    - 'enunciado': Lista que contiene el texto de la pregunta.
+    - 'alternativas': Lista de listas donde cada sublista contiene una alternativa de respuesta y un indicador 
+      (1 para la respuesta correcta, 0 para las incorrectas).
+
+Ejemplo:
+    'pregunta_1': {
+        'enunciado': ['¿Qué gas es necesario para la respiración humana?'],
+        'alternativas': [['Nitrógeno', 0], ['Oxígeno', 1], ['Dióxido de carbono', 0], ['Hidrógeno', 0]]
+    }
+"""
 
 preguntas_avanzadas = {
     'pregunta_1': {'enunciado':['¿Cuál es la ecuación de la relatividad?'],
@@ -58,7 +104,38 @@ preguntas_avanzadas = {
             ['1972', 0],
             ['1980', 0]]}
 }
+"""
+Diccionario que contiene preguntas avanzadas para un juego de trivia.
+
+Estructura:
+    pregunta_n: {
+        'enunciado': [str],
+        'alternativas': [
+            [str, int],
+            ...
+        ]
+    }
+
+Claves:
+    - 'enunciado': Lista que contiene el texto de la pregunta.
+    - 'alternativas': Lista de listas donde cada sublista contiene una alternativa de respuesta y un indicador 
+      (1 para la respuesta correcta, 0 para las incorrectas).
+
+Ejemplo:
+    'pregunta_1': {
+        'enunciado': ['¿Cuál es la ecuación de la relatividad?'],
+        'alternativas': [['E=mc^2', 1], ['F=ma', 0], ['a^2+b^2=c^2', 0], ['V=IR', 0]]
+    }
+"""
 
 pool_preguntas = {'basicas': preguntas_basicas,
                   'intermedias': preguntas_intermedias,
                   'avanzadas': preguntas_avanzadas}
+"""
+Diccionario que agrupa las preguntas de trivia según su nivel de dificultad.
+
+Claves:
+    - 'basicas': Diccionario que contiene las preguntas básicas.
+    - 'intermedias': Diccionario que contiene las preguntas intermedias.
+    - 'avanzadas': Diccionario que contiene las preguntas avanzadas.
+"""
