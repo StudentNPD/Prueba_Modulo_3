@@ -10,6 +10,15 @@ opciones = {'basicas': [1,2,3],
 ###############################################
 
 def choose_q(dificultad):
+    """
+    Selecciona y devuelve una pregunta aleatoria de un nivel de dificultad específico.
+
+    Parámetros:
+        dificultad (str): El nivel de dificultad de la pregunta. Puede ser 'basicas', 'intermedias' o 'avanzadas'.
+
+    Retorna:
+        Tuple[str, List[str]]: Una tupla que contiene el enunciado de la pregunta y una lista de alternativas mezcladas.
+    """
     if dificultad == 'basicas':
         preguntas = p.preguntas_basicas
     elif dificultad == 'intermedias':
