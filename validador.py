@@ -1,22 +1,17 @@
-
 def validate(opciones, eleccion):
+    """Valida la elección del usuario y la devuelve si es válida.
 
-    # while eleccion not in opciones:
-    #     print(f"La elección '{eleccion}' no es valida, intenta de nuevo....")
-    #     eleccion = input('Ingresa una Opción: ').lower()
-    # return eleccion
+    Args:
+        opciones (list): Una lista de las opciones válidas.
+        eleccion (str): La elección del usuario.
 
-
-
-
-    # Definir validación de eleccion
-    ##########################################################################
+    Returns:
+        str: La elección del usuario si es válida.
+    """
     while eleccion not in opciones:
         print(f'Opción no válida, ingrese una de las opciones válidas: {opciones}')
         eleccion = input("Ingresa una opción: ")
-    ##########################################################################
     return eleccion
-
 
 if __name__ == '__main__':
     
