@@ -4,11 +4,11 @@ import preguntas as p
 def verificar(alternativas, eleccion):
     """Determina si la elección del usuario es correcta.
 
-    Args:
+     Parámetros:
         alternativas (list): Una lista de tuplas, donde cada tupla contiene la alternativa (str) y un valor booleano (int) que indica si la alternativa es correcta o no.
         eleccion (str): La elección del usuario, que debe ser 'a', 'b', 'c' o 'd'.
 
-    Returns:
+    Retorna:
         bool: True si la elección del usuario es correcta, False de lo contrario.
     """
     eleccion = ['a', 'b', 'c', 'd'].index(eleccion)
