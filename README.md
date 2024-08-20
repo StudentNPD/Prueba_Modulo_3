@@ -2,25 +2,34 @@
 -------------------------------------
 ## Descripción
 
-¡Llegó el gran momento! Te has unido a ADL Desarrolladores, una entidad dedicada a
-desarrollar apps entretenidas, con un equipo de desarrollo muy organizado que sigue las
-buenas prácticas del desarrollo de software.
-Este equipo ha sido asignado para desarrollar una App en Python que permite jugar una
-trivia interactiva. Esta App tendrá preguntas con 3 niveles de dificultad:
+Se desarrolla una aplicación de trivia interactiva en Python. La aplicación contará con preguntas distribuidas en tres niveles de dificultad:
+
 - Básica
 - Intermedia
 - Avanzada
-  
-El mismo jugador define el número de preguntas a responder correspondientes a cada nivel
-de dificultad, y gana al responder todas las preguntas correctamente.
-Las preguntas deben aparecer en un orden aleatorio, y además cada vez que alguien ejecute
-la app las alternativas deben ser cambiadas de orden para evitar que alguien encuentre
-algún patrón de resolución.
-Dado que el programa se hace bastante complejo, en una primera reunión, el project
-manager ha generado un backlog con tareas muy específicas, las cuales tendrán que ser
-desarrolladas paso a paso antes de ensamblar la app final.
-Todas las subtareas consistirán en la creación de un script en Python, la que contendrá las
-especificaciones de una funcionalidad, y deberá ser testeada dentro del mismo archivo
+
+El jugador tendrá la libertad de definir el número de preguntas que desea responder en cada nivel de dificultad. Para ganar, deberá responder correctamente todas las preguntas seleccionadas.
+
+Para mantener el juego desafiante y evitar patrones predecibles, las preguntas aparecerán en un orden aleatorio cada vez que se ejecute la aplicación. Además, las alternativas de respuesta se reorganizarán aleatoriamente en cada ejecución, garantizando una experiencia única en cada partida.
+
+------------------------------------------
+
+## Prerequisitos
+
+- Sistema Operativos: Windows 10, 11, Linux, iOS
+- Python 3.12
+
+## Ejecución
+
+***Windows***
+
+`python main.py`
+
+***Linux & iOS***
+
+`python3 main.py`
+
+
 
 ------------------------------------------
 
@@ -30,5 +39,4 @@ especificaciones de una funcionalidad, y deberá ser testeada dentro del mismo a
 - [Natalia Peña](https://github.com/StudentNPD)
 - [Iván Unquén](https://github.com/IvanUnquen)
 - [Camila Chavez](https://github.com/Camilachavez630)
-
 
