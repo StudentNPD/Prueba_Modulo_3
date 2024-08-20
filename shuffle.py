@@ -2,6 +2,15 @@ import preguntas as p
 import random
 
 def shuffle_alt(pregunta):
+    """
+    Mezcla el orden de las alternativas de una pregunta.
+
+    Parámetros:
+    pregunta (dict): Un diccionario que contiene la información de una pregunta, incluyendo sus alternativas.
+
+    Retorna:
+    list: Una lista con las alternativas de la pregunta en un orden aleatorio.
+    """
     #mezclar alternativas
     #######################################################################
     random.shuffle(pregunta['alternativas'])
