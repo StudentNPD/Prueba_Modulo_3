@@ -2,11 +2,16 @@ import preguntas as p
 
 
 def verificar(alternativas, eleccion):
-    #devuelve el índice de elección dada
-    eleccion = ['a', 'b', 'c','d'].index(eleccion)
+    """Determina si la elección del usuario es correcta.
 
-    # generar lógica para determinar respuestas correctas
-    ##########################################################################################
+    Args:
+        alternativas (list): Una lista de tuplas, donde cada tupla contiene la alternativa (str) y un valor booleano (int) que indica si la alternativa es correcta o no.
+        eleccion (str): La elección del usuario, que debe ser 'a', 'b', 'c' o 'd'.
+
+    Returns:
+        bool: True si la elección del usuario es correcta, False de lo contrario.
+    """
+    eleccion = ['a', 'b', 'c', 'd'].index(eleccion)
     if alternativas[eleccion][1] == 1:
         print("Respuesta Correcta")
         return True
