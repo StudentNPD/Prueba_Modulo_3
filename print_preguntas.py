@@ -3,11 +3,11 @@ import preguntas as p
 def print_pregunta(enunciado, alternativas):
     """Imprime el enunciado de una pregunta y sus alternativas.
 
-    Args:
+     Parámetros:
         enunciado (str): El texto del enunciado de la pregunta.
         alternativas (list): Una lista de tuplas, donde cada tupla contiene la alternativa (str) y un valor booleano (int) que indica si la alternativa es correcta o no.
 
-    Returns:
+    Return:
         None
     """
     print(enunciado)
